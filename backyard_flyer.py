@@ -13,9 +13,12 @@ class States(Enum):
     MANUAL = 0
     ARMING = 1
     TAKEOFF = 2
-    WAYPOINT = 3
-    LANDING = 4
-    DISARMING = 5
+    FRONT = 3
+    RIGHT = 4
+    BACK = 5
+    LEFT = 6
+    LANDING = 7
+    DISARMING = 8
 
 
 class BackyardFlyer(Drone):
